@@ -1,0 +1,154 @@
+img {
+    width: 100%;
+}
+
+.header {
+    display: inline-block;
+    position: relative;
+}
+
+.trial-text {
+    display: block;
+    position: absolute;
+    transform: translate(20%, -150%);
+}
+
+.trial-text p {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.trial-text .line-one {
+    font-size: large;
+    font-weight: bold;
+}
+
+.trial-text .line-two {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.trial-text .line-one {
+    font-size: medium;
+}
+
+/* Main */
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: 2.5%;
+}
+
+.card-wide {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 1%;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered .line-one {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.card-half {
+    display: inline-block;
+    position: relative;
+    width: 49%;
+    margin-bottom: 2%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 10%;
+    width: 50%;
+    transform: translate(-10%, -50%);
+}
+
+.left .line-one {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.left p {
+    margin-top: 5px;
+}
+
+.product {
+    display: inline-block;
+    position: relative;
+    width: 23%;
+}
+
+.product img {
+    margin-bottom: 12px;
+}
+
+.product p {
+    margin: 0;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+.shop button {
+    margin: 30px;
+}
+
+button {
+    background-color: #ff8f4e;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px;
+    width: 150px;
+}
+
+.new-to {
+    display: inline-block;
+    position: relative;
+}
+
+#press {
+    width: 30%;
+}
+
+.gray {
+    color: gray;
+}
+
+#press button {
+    margin-top: 20px;
+}
