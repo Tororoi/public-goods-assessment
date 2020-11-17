@@ -152,3 +152,56 @@ button {
 #press button {
     margin-top: 20px;
 }
+
+/* Popup */
+
+.popup {
+    width: 50%;
+    height: 30%;
+    background-color: rgb(255, 156, 117);
+    z-index: 100;
+    position: fixed;
+    top: 30%;
+    left: 25%;
+    animation: moveUp 2s ease-out 1 forwards;
+}
+
+.popdown {
+    width: 50%;
+    height: 30%;
+    background-color: rgb(255, 156, 117);
+    z-index: 100;
+    position: fixed;
+    top: 30%;
+    left: 25%;
+    animation: moveDown 2s ease-out 1 forwards;
+}
+
+@keyframes moveUp {
+    0% {top: 100%;}
+    100% {top: 30%;}
+}
+
+@keyframes moveDown {
+    0% {top: 30%;}
+    100% {top: 100%;}
+}
+
+.claim-btn {
+    align-self: center;
+    background-color: white;
+    color: rgb(255, 156, 117);
+    cursor: pointer;
+}
+
+.x {
+    color: white;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: larger;
+}
