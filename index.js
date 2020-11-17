@@ -1,4 +1,7 @@
-window.setTimeout(popupAppears, 5000);
+ //After time on assesment up, added localStorage if statement
+if(!localStorage.getItem('visited')) {
+    window.setTimeout(popupAppears, 5000);
+}
 
 let popup = document.createElement("div");
 
@@ -37,4 +40,7 @@ function putAway(e) {
 
 function moveDown(e) {
     popup.className = "popdown";
+
+    //After time on assesment up
+    localStorage.setItem('visited',true);
 }
